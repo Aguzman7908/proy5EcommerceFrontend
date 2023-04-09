@@ -1,0 +1,8 @@
+.env
+node_modules
+
+PORT=4000
+
+MONGODB_URI=mongodb+srv://mongo_user:VXBg3xeojCcgFYzq@demo.nkysmou.mongodb.net/ecommerce
+SECRET=UCAMP
+
