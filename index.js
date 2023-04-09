@@ -14,7 +14,7 @@ app.use(express.json())
 //3. Rutas
 app.use('/usuario', userRoutes)
 app.use('/product', productRoutes)
-app.get('/', (req, res) => res.send('UCAMP API POSTS'))
+app.get('/', (req, res) => res.send('UCAMP API BACKEND'))
 
 // 4. SERVIDOR
 app.listen(process.env.PORT, () => {
