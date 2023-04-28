@@ -13,7 +13,7 @@ const getProducts = async (req, res) => {
 const getProductIndividual =async (req, res) => {
     try{
         const sku = req.params.sku
-        const products = await Product.find({sku})
+        const products = await Product.findOne({sku})
         res.json({data:products,})
     } catch (error){
         res.status (400).json({msg:'Hubo un error explorando los datos'})
